@@ -262,7 +262,7 @@ html {
  
  @media screen and (min-width: 900px) {
     .main-container .main-container-inner {
-        max-height:791px;
+        max-height:1200px;
         height: 100vh
     }
  }
