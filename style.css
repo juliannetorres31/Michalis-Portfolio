@@ -3,182 +3,220 @@
 
 
 
+
 html {
     -webkit-text-size-adjust: 100%;
     line-height: 1.15
-}
-
-body {
+ }
+ 
+ 
+ body {
     margin: 0;
-
-}
-
-main {
+ 
+ 
+ }
+ 
+ 
+ main {
     display: block
-}
-
-h1 {
+ }
+ 
+ 
+ h1 {
     margin: .67em 0;
     font-size: 2em;
-}
-
-hr {
+ }
+ 
+ 
+ hr {
     box-sizing: content-box;
     height: 0;
     overflow: visible
-}
-
-pre {
+ }
+ 
+ 
+ pre {
     font-family: monospace,monospace;
     font-size: 1em
-}
-
-a {
+ }
+ 
+ 
+ a {
     background-color: #0000
-}
-
-abbr[title] {
+ }
+ 
+ 
+ abbr[title] {
     border-bottom: none;
     -webkit-text-decoration: underline dotted;
     text-decoration: underline dotted
-}
-
-b,strong {
+ }
+ 
+ 
+ b,strong {
     font-weight: bolder
-}
-
-code,kbd,samp {
+ }
+ 
+ 
+ code,kbd,samp {
     font-family: monospace,monospace;
     font-size: 1em
-}
-
-small {
+ }
+ 
+ 
+ small {
     font-size: 80%
-}
-
-sub,sup {
+ }
+ 
+ 
+ sub,sup {
     vertical-align: baseline;
     font-size: 75%;
     line-height: 0;
     position: relative
-}
-
-sub {
+ }
+ 
+ 
+ sub {
     bottom: -.25em
-}
-
-sup {
+ }
+ 
+ 
+ sup {
     top: -.5em
-}
-
-img {
+ }
+ 
+ 
+ img {
     border-style: none
-}
-
-button,input,optgroup,select,textarea {
+ }
+ 
+ 
+ button,input,optgroup,select,textarea {
     margin: 0;
     font-family: inherit;
     font-size: 100%;
     line-height: 1.15
-}
-
-button,input {
+ }
+ 
+ 
+ button,input {
     overflow: visible
-}
-
-button,select {
+ }
+ 
+ 
+ button,select {
     text-transform: none
-}
-
-button,[type=button],[type=reset],[type=submit] {
+ }
+ 
+ 
+ button,[type=button],[type=reset],[type=submit] {
     -webkit-appearance: button
-}
-
-button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner {
+ }
+ 
+ 
+ button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner {
     border-style: none;
     padding: 0
-}
-
-button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring {
+ }
+ 
+ 
+ button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring {
     outline: 1px dotted ButtonText
-}
-
-fieldset {
+ }
+ 
+ 
+ fieldset {
     padding: .35em .75em .625em
-}
-
-legend {
+ }
+ 
+ 
+ legend {
     box-sizing: border-box;
     color: inherit;
     max-width: 100%;
     white-space: normal;
     padding: 0;
     display: table
-}
-
-progress {
+ }
+ 
+ 
+ progress {
     vertical-align: baseline
-}
-
-textarea {
+ }
+ 
+ 
+ textarea {
     overflow: auto
-}
-
-[type=checkbox],[type=radio] {
+ }
+ 
+ 
+ [type=checkbox],[type=radio] {
     box-sizing: border-box;
     padding: 0
-}
-
-[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button {
+ }
+ 
+ 
+ [type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button {
     height: auto
-}
-
-[type=search] {
+ }
+ 
+ 
+ [type=search] {
     -webkit-appearance: textfield;
     outline-offset: -2px
-}
-
-[type=search]::-webkit-search-decoration {
+ }
+ 
+ 
+ [type=search]::-webkit-search-decoration {
     -webkit-appearance: none
-}
-
-::-webkit-file-upload-button {
+ }
+ 
+ 
+ ::-webkit-file-upload-button {
     -webkit-appearance: button;
     font: inherit
-}
-
-details {
+ }
+ 
+ 
+ details {
     display: block
-}
-
-summary {
+ }
+ 
+ 
+ summary {
     display: list-item
-}
-
-template,[hidden] {
+ }
+ 
+ 
+ template,[hidden] {
     display: none
-}
-
-@font-face {
+ }
+ 
+ 
+ @font-face {
     font-family: Montserrat-Regular;
     src: url(Montserrat-Regular.4e6c8170.ttf)format("truetype");
     font-display: swap
-}
-
-/* outter body (change background color here) */
-body {
+ }
+ 
+ 
+ /* outter body (change background color here) */
+ body {
     color: #d1d1d1;
-    background: rgb(10,24,35);
-    background: radial-gradient(circle, rgba(10,24,35,1) 0%, rgba(18,25,26,1) 67%, rgba(19,17,27,1) 100%);
+    background-image: url(./images/grad.png);
+    /*background: radial-gradient(circle, rgba(10,24,35,1) 0%, rgba(18,25,26,1) 67%, rgba(19,17,27,1) 100%);*/
     font-family: 'Poppins', sans-serif;
-}
-
-h1,h2 {
+ }
+ 
+ 
+ h1,h2 {
     font-weight: 100
-    
-}
-
-.main {
+   
+ }
+ 
+ 
+ .main {
     box-sizing: border-box;
     display: block;
     position: fixed;
@@ -187,27 +225,30 @@ h1,h2 {
     left: 0;
     right: 0;
     overflow-y: auto
-}
-
-.main-container {
+ }
+ 
+ 
+ .main-container {
     max-width: 100vw;
     height: 100%;
     box-sizing: border-box;
     justify-content: center;
     align-items: flex-start;
     display: flex
-}
-
-@media screen and (min-width: 900px) {
+ }
+ 
+ 
+ @media screen and (min-width: 900px) {
     .main-container {
         height:100vh;
         max-height: 100vh;
         align-items: center;
         overflow: hidden
     }
-}
-
-.main-container .main-container-inner {
+ }
+ 
+ 
+ .main-container .main-container-inner {
     width: 100vw;
     max-width: 1280px;
     box-sizing: border-box;
@@ -216,24 +257,28 @@ h1,h2 {
     padding: 7.5px;
     display: flex;
     position: relative
-}
-
-@media screen and (min-width: 900px) {
+ }
+ 
+ 
+ @media screen and (min-width: 900px) {
     .main-container .main-container-inner {
         max-height:791px;
         height: 100vh
     }
-}
-
-@media screen and (min-width: 500px) {
+ }
+ 
+ 
+ @media screen and (min-width: 500px) {
     .main-container .main-container-inner {
         padding:20px
     }
-}
-
-
-/* Inner container (I can change background color here)  */
-.main-container .main-container-inner .inner-container {
+ }
+ 
+ 
+ 
+ 
+ /* Inner container (I can change background color here)  */
+ .main-container .main-container-inner .inner-container {
     -webkit-user-select: none;
     user-select: none;
     z-index: 2;
@@ -243,125 +288,163 @@ h1,h2 {
     flex-basis: 100%;
     padding: 15px;
     overflow: hidden
-}
-
-@media screen and (min-width: 500px) {
+ }
+ 
+ 
+ @media screen and (min-width: 500px) {
     .main-container .main-container-inner .inner-container {
         padding:30px
     }
-}
-
-.main-container .main-container-inner .inner-container header {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container header {
     justify-content: space-between;
     display: flex
-}
-
-.main-container .main-container-inner .inner-container header .logo {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container header .logo {
     z-index: 9;
     cursor: pointer;
     transition: all 50ms ease-in-out
-}
-
-.main-container .main-container-inner .inner-container header .logo.mousedown {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container header .logo.mousedown {
     transform: scale(.9)
-}
-
-.main-container .main-container-inner .inner-container header .logo svg {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container header .logo svg {
     height: 50px;
     width: 50px;
     margin-left: -8px;
-    transition: all .1s ease-in-out
-}
-
-.main-container .main-container-inner .inner-container header .logo svg:hover {
+    transition: all .1s ease-in-out;
+  
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container header .logo svg:hover {
     transform: scale(1.1)
-}
-
-/* nav bar */
-.main-container .main-container-inner .inner-container header ul {
+ }
+ 
+ 
+ /* nav bar */
+ 
+ 
+ 
+ 
+ .main-container .main-container-inner .inner-container header ul {
     list-style: none;
-    display: flex
-}
-
-.main-container .main-container-inner .inner-container header ul .email svg {
+    display: flex;
+   
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container header ul .email svg {
     fill: #777;
     transition: all .1s ease-in-out
-}
-
-.main-container .main-container-inner .inner-container header ul .email svg g {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container header ul .email svg g {
     fill: #777
-}
-
-.main-container .main-container-inner .inner-container header ul .email svg:hover {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container header ul .email svg:hover {
     transform: scale(1.2)
-}
-
-.main-container .main-container-inner .inner-container header ul .email svg:hover g {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container header ul .email svg:hover g {
     fill: red
-}
-
-.main-container .main-container-inner .inner-container header ul .github svg {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container header ul .github svg {
     transition: all .1s ease-in-out
-}
-
-.main-container .main-container-inner .inner-container header ul .github svg .cls-1 {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container header ul .github svg .cls-1 {
     fill: #777
-}
-
-.main-container .main-container-inner .inner-container header ul .github svg:hover {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container header ul .github svg:hover {
     transform: scale(1.2)
-}
-
-.main-container .main-container-inner .inner-container header ul .github svg:hover .cls-1 {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container header ul .github svg:hover .cls-1 {
     fill: #ccc
-}
-
-.main-container .main-container-inner .inner-container header ul .npm svg {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container header ul .npm svg {
     transition: all .2s ease-in-out
-}
-
-.main-container .main-container-inner .inner-container header ul .npm svg #Selection1 {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container header ul .npm svg #Selection1 {
     fill: #777
-}
-
-.main-container .main-container-inner .inner-container header ul .npm svg #Selection2 {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container header ul .npm svg #Selection2 {
     fill: #0000
-}
-
-.main-container .main-container-inner .inner-container header ul .npm svg:hover {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container header ul .npm svg:hover {
     transform: scale(1.2)
-}
-
-.main-container .main-container-inner .inner-container header ul .npm svg:hover #Selection1 {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container header ul .npm svg:hover #Selection1 {
     fill: #fff
-}
-
-.main-container .main-container-inner .inner-container header ul .npm svg:hover #Selection2 {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container header ul .npm svg:hover #Selection2 {
     fill: red
-}
-
-
-/* nav bar colors*/
-.main-container .main-container-inner .inner-container header ul a {
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .main-container .main-container-inner .inner-container header ul a {
     color: #ccc;
     margin-left: 30px;
     line-height: 1.5;
-    display: flex
-}
-
-.main-container .main-container-inner .inner-container header ul a svg {
+    display: flex;
+   
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .main-container .main-container-inner .inner-container header ul a svg {
     width: 25px;
     height: 25px;
     margin-top: -15px;
     transition: transform .2s ease-in-out;
     transform: scale(1.01)
-}
-
-.main-container .main-container-inner .inner-container header ul a svg:hover {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container header ul a svg:hover {
     transform: scale(1.2)
-}
-
-.main-container .main-container-inner .inner-container main.projects-overview {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container main.projects-overview {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-font-smoothing: subpixel-antialiased;
@@ -373,121 +456,160 @@ h1,h2 {
     align-items: flex-start;
     display: flex;
     transform: translateZ(0)
-}
-
-@media screen and (min-width: 900px) {
+ }
+ 
+ 
+ @media screen and (min-width: 900px) {
     .main-container .main-container-inner .inner-container main.projects-overview {
         flex-direction:row;
         justify-content: space-between;
         align-items: center;
         padding-left: 50px
     }
-
+ 
+ 
     .main-container .main-container-inner .inner-container main.projects-overview div.spacer {
         max-width: 130px;
         min-width: 90px
     }
-
+ 
+ 
     .main-container .main-container-inner .inner-container main.projects-overview div {
         flex: 1
     }
-}
-
-.main-container .main-container-inner .inner-container main.projects-overview .main-message {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container main.projects-overview .main-message {
     flex-basis: 53.4752%
-}
-
-.main-container .main-container-inner .inner-container main.projects-overview .main-message #welcome svg {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container main.projects-overview .main-message #welcome svg {
     width: 75%;
     fill: #fff0
-}
-
-/* main title - michail alifierakis */
-.main-container .main-container-inner .inner-container main.projects-overview .main-message h1 {
+ }
+ 
+ 
+ /* main title - michail alifierakis */
+ .main-container .main-container-inner .inner-container main.projects-overview .main-message h1 {
     margin-bottom: 20px;
     font-family: 'Poppins', sans-serif;
-    font-size: 50px;
+    font-size: 80px;
     font-weight: 100
-}
-
-@media screen and (min-width: 900px) {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container main.projects-overview .main-message h2 .project-name {
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    font-weight: 100
+ }
+ 
+ 
+ @media screen and (min-width: 900px) {
     .main-container .main-container-inner .inner-container main.projects-overview .main-message h1 {
         margin-top:0;
         font-size: 90px
     }
-}
-
-.main-container .main-container-inner .inner-container main.projects-overview .main-message span {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container main.projects-overview .main-message span {
     margin-left: 30px;
     font-size: .9em;
     font-weight: 100;
     line-height: 1.6;
     display: block;
     position: relative
-}
-
-
-
-/* vertical line next to title description */
-.main-container .main-container-inner .inner-container main.projects-overview .main-message span:before {
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ /* vertical line next to title description */
+ .main-container .main-container-inner .inner-container main.projects-overview .main-message span:before {
     content: " ";
-    width: 2px;
-    background: rgb(206, 206, 206);
+    width: 3px;
+    background: #466368;
+    background: linear-gradient(#517F6B, #3753AF);
+    border-radius: 1px;
     position: absolute;
     top: 0;
     bottom: 0;
     left: -30px
-}
+ }
 
 
 
-.main-container .main-container-inner .inner-container main.projects-overview .main-projects {
+
+ 
+ 
+ 
+ .main-container .main-container-inner .inner-container main.projects-overview .main-projects {
     flex-basis: 30.9017%
-}
-
-
-/* Project title en home page */
-.main-container .main-container-inner .inner-container main.projects-overview .main-projects h2 {
+ }
+ 
+ 
+ 
+ 
+ /* Project title en home page */
+ .main-container .main-container-inner .inner-container main.projects-overview .main-projects h2 {
     margin-top: 30px;
     margin-bottom: 30px;
     font-family: 'Poppins', sans-serif;;
     font-size: 30px;
     font-weight: 100
-}
-
-.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper {
     font-size: 14px;
     position: relative
-}
-
-
-/* curved line (actually a square) next to project list  */
-.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper:before {
+ }
+ 
+ 
+ 
+ 
+ /* curved line (actually a square) next to project list  */
+ 
+ 
+ .main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper:before {
     content: " ";
-    width: 90px;
-    height: 90px;
-    background: red; 
+    width: 100px;
+    height: 100px;
+    background-image: url(./images/curve3.png);
     opacity: 1;
     border-top-left-radius: 8px;
     transition: all .3s ease-in-out;
     position: absolute;
-    top: -2px;
+    top: -20px;
     bottom: 0;
     left: -2px;
-    
-} 
-
-
-
-
-
-
-/* When mouse hovers over curved line next to project list (is currently dissapears when I hover) */
-.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper:hover:before {
+   
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* When mouse hovers over curved line next to project list (is currently dissapears when I hover) */
+ /*
+ .main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper:hover:before {
     opacity: 0
-}
-
-.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper:after {
+ }
+ */
+ 
+ 
+ .main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper:after {
     content: " ";
     width: 90px;
     height: 90px;
@@ -499,16 +621,20 @@ h1,h2 {
     top: -2px;
     bottom: 0;
     left: -2px
-}
-
-.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper:hover:after {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper:hover:after {
     opacity: 1
-}
-
-
-
-/* Colored box that contains project names in home page */
-.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper div {
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ /* Colored box that contains project names in home page */
+ .main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper div {
     z-index: 1;
    /* background: #2626a0; */
     border-top-left-radius: 7px;
@@ -517,35 +643,42 @@ h1,h2 {
     padding: 30px 30px 0;
     display: flex;
     position: relative
-}
-
-.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper div a {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper div a {
     color: #ccc;
     margin-bottom: 15px;
     margin-left: 0;
     padding-bottom: 5px;
     line-height: 1.5;
     text-decoration: none
-}
-
-.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper div a:hover {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper div a:hover {
     color: #fff;
     letter-spacing: 1px
-}
-
-.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper div a span {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper div a span {
     transition: all .3s ease-in-out;
     display: inline-block;
     position: relative
-}
-
-
-/*  lines underneath project titles */
-.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper div a span:before {
+ }
+ 
+ 
+ 
+ 
+ /*  lines underneath project titles */
+ .main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper div a span:before {
     content: "";
-    height: 1px;
+    height: 3px;
     width: 100%;
-    background: rgb(228, 228, 228);
+    background: #466368;
+    background: linear-gradient(to right, #517F6B, #2d489e);
+    border-radius: 1px;
     opacity: 1;
     transition: all .3s ease-in-out;
     display: inline-block;
@@ -553,17 +686,21 @@ h1,h2 {
     bottom: -2px;
     left: 0;
     right: 0
-}
-
-.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper div a:hover span:before {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper div a:hover span:before {
     opacity: 0
-}
-
-.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper div a span:after {
+ }
+ 
+ 
+ /* When I hover over project titles the lines stay */
+ .main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper div a span:after {
     content: "";
-    height: 1px;
+    height: 3px;
     width: 100%;
-    background: linear-gradient(270deg,var(--grad-1)0%,var(--grad-2)100%);
+    background: #466368;
+    background: linear-gradient(to right, #517F6B, #2d879e);
     opacity: 0;
     transition: all .3s ease-in-out;
     display: inline-block;
@@ -571,24 +708,28 @@ h1,h2 {
     bottom: -2px;
     left: 0;
     right: 0
-}
-
-.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper div a:hover span:after {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper div a:hover span:after {
     opacity: 1
-}
-
-.main-container .main-container-inner .inner-container main.projects-overview .main-message {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container main.projects-overview .main-message {
     position: relative
-}
-
-.main-container .main-container-inner .inner-container main.projects-overview .main-message .welcome-message {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container main.projects-overview .main-message .welcome-message {
     transform-origin: 0;
     opacity: 1;
     transition: all .2s linear;
     transform: scaleX(1)
-}
-
-.main-container .main-container-inner .inner-container main.projects-overview .main-message .individual-project {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container main.projects-overview .main-message .individual-project {
     transform-origin: 100%;
     opacity: 0;
     width: 100%;
@@ -597,117 +738,151 @@ h1,h2 {
     top: 0;
     left: 0;
     transform: scaleX(0)
-}
-
-.main-container .main-container-inner .inner-container main.projects-overview .main-message .individual-project h2 {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container main.projects-overview .main-message .individual-project h2 {
     margin-top: 60px;
     margin-bottom: 30px;
     font-family: Montserrat-Regular;
     font-size: 30px;
     font-weight: 100
-}
-
-@media screen and (max-width: 889px) {
+ }
+ 
+ 
+ @media screen and (max-width: 889px) {
     .main-container .main-container-inner .inner-container main.projects-overview .main-message .individual-project h2 {
         margin-top:10px;
         font-size: 20px
     }
-}
-
-.main-container .main-container-inner .inner-container main.projects-overview .main-message .individual-project button {
+ }
+ 
+ 
+ /* Github Code text color (in project section)*/
+ 
+ 
+ .hi {
+    color: #ccc;;
+ }
+ 
+ 
+ /* Github Code button horizontal line (in project section*/
+ .help {
     border: 0 solid #000;
-    margin-right: 25px;
+    margin-right: 15px;
     padding: 0;
-    position: relative
-}
-
-.main-container .main-container-inner .inner-container main.projects-overview .main-message .individual-project button a {
-    text-align: center;
-    color: #ccc;
-    background: #1d1d20;
-    border: 0 solid #000;
-    padding: 8px 0;
-    font-size: 16px;
-    font-weight: 700;
-    -webkit-text-decoration-line: none;
-    text-decoration-line: none;
-    transition: all .3s ease-in-out;
-    display: block
-}
-
-@media screen and (max-width: 889px) {
+    position: relative;
+    background-color: #3753af00;
+   
+ }
+ 
+ 
+ 
+ 
+ @media screen and (max-width: 889px) {
     .main-container .main-container-inner .inner-container main.projects-overview .main-message .individual-project button a {
         padding:10px;
         font-size: 14px
     }
-}
-
-.main-container .main-container-inner .inner-container main.projects-overview .main-message .individual-project button a:after {
+ }
+ 
+ 
+ .help a:after {
     content: "";
-    height: 2px;
+    height: 3px;
     width: 100%;
-    background: linear-gradient(270deg,var(--grad-2)0%,var(--grad-1)100%);
+    background: #466368;
+    background: linear-gradient(#6daf92, #43678D, #3753AF);
+    border-radius: 1px;
     opacity: 1;
-    transition: all .3s ease-in-out;
-    display: block;
+     transition: all .3s ease-in-out;
+    display: inline-block;
     position: absolute;
-    bottom: 0;
+    bottom: -6px;
     left: 0;
-    right: 0
-}
-
-.main-container .main-container-inner .inner-container main.projects-overview .main-message .individual-project button a:hover {
+    right: 0;
+   
+ }
+ 
+ 
+ .help a:hover {
     color: #fff
-}
-
-.main-container .main-container-inner .inner-container main.projects-overview .main-message .individual-project button a:hover:after {
-    background: linear-gradient(270deg,var(--grad-1)0%,var(--grad-2)100%)
-}
-
-.main-container .main-container-inner .inner-container main.projects-overview.projects-overview-hide .main-message .welcome-message {
+ }
+ 
+ 
+ /* when I hover over Github button*/
+ .help a:hover:after {
+    background: #466368;
+    background: linear-gradient(#3753AF,#69cfa3, #2f5072 );
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container main.projects-overview.projects-overview-hide .main-message .welcome-message {
     opacity: 0;
     transform: scaleX(0)
-}
-
-.main-container .main-container-inner .inner-container main.projects-overview.projects-overview-hide .main-message .individual-project.individual-project-show {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container main.projects-overview.projects-overview-hide .main-message .individual-project.individual-project-show {
     opacity: 1;
     transform: scaleX(1)
-}
-
-.main-container .main-container-inner .inner-container footer {
+ }
+ 
+ 
+ .main-container .main-container-inner .inner-container footer {
     width: 100%;
     text-align: center;
     padding: 35px 0 27px;
     font-size: 14px;
     position: relative
-}
-
-@media screen and (min-width: 500px) {
+ }
+ 
+ 
+ @media screen and (min-width: 500px) {
     .main-container .main-container-inner .inner-container footer {
         text-align:right
     }
-}
-
-
-
-/* resume */
-
-
-.timeline{
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ /* resume */
+ 
+ 
+ 
+ 
+ .timeline{
     padding: 0px;
     padding-top: 30px;
-}
-
-
-
-ul {
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ ul {
     list-style-type: none;
-}
-
-
-/* creates the vertical line */
+ }
+ 
+ 
+ .year {
+    color: #ccc;
+ }
+ 
+ 
+ .bolded {
+    font-weight: bold;
+  }
+ 
+ 
+ /* creates the vertical line */
    article li:before {
-    background-color: rgb(206, 206, 206);
+    background: #466368;
+    background: linear-gradient(#6daf92, #43678D, #3753AF);
     width: 0.5px;
     content: '';
     position: absolute;
@@ -715,48 +890,181 @@ ul {
     bottom: 0px;
     left: 5px;
   }
-
-
+ 
+ 
+ 
+ 
   li {
     /* You need to turn on relative positioning so the line is placed relative to the item rather than absolutely on the page */
     position: relative;
-  
-    /* Use padding to space things out rather than margins as the line would get broken up otherwise */
+     /* Use padding to space things out rather than margins as the line would get broken up otherwise */
     margin: 0;
     padding-bottom: 1em;
     padding-left: 20px;
-
-    
+ 
+ 
+   
   }
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
   /*bullet points here*/
   article li::after {
     content: " ";
-    background: skyblue;
+    background: #466368;
+    background: linear-gradient(#6daf92, #43678D, #3753AF);
     display: inline-block;
     position: absolute;
     border-radius: 50%;
-    border: 2px solid rgb(47, 47, 173);
+    border: 0px solid rgb(47, 47, 173);
     left: 0;
     top: 2px;
     width: 12px;
     height: 12px;
   }
-
-
-  /*nav bar*/
-
-  .navbar .navbar-toggler {
-    color: white;
-  }
  
-  .navbar .navbar-brand {
-    color: white;
+ 
+ 
+ 
+ 
+ 
+  /*nav bar*/
+  
+ .navbar-toggler {
+  
+        transition: all .2s ease-in-out;
+        
+    
+ }
+        .navbar-toggler:hover {
+        transform: scale(1.2);
+       
+    }
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ .navbar-toggler:focus {
+    box-shadow: none !important;
+   
+ }
+ 
+ 
+ 
+ 
+  .navbar .navbar-toggler {
+    color:  #ccc;
+    border: #000;
+  
+ 
+ 
   }
 
+   
+  .navbar .navbar-toggler {
+    color:  #ccc;
+    border: #000;
+  
+ 
+ 
+  }
+
+
+ 
   .color-me{
-    color: white
+    color:  #ccc;
+    
+  
+ }
+
+ .color-me:hover{
+    color:  white;
+    text-decoration: none;
+    
+  
+ }
+ 
+ 
+ .linav{
+    margin: 10px;
+    padding-left: 0;
+    margin-left: 0;
+   
+ }
+ 
+ 
+ .navbar-toggler:focus,
+ .navbar-toggler:active,
+ .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+ }
+ 
+ 
+  /*logo colors and hover effect */
+.logo{
+    transition: all .2s ease-in-out;
+    
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    
+   
+}
+
+.navbar-light .navbar-brand {
+    color: #ccc;
+    
+   
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #ccc;
+}
+ 
+ .logo {
+    font-size: 30px;
+  
+ }
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* <a> "Github code" text color (en Project Section)*/
+ 
+ 
+ /*
+ .github {
+    color: #ccc;
+ }
+ 
+ 
+ .github:hover {
+    color: white;
+ }
+ 
+ 
+ 
+ 
+ /* github underline (needs work) */
+ 
+ 
+
+
+.logi{
+    width: 100px;
 }
 
