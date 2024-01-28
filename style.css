@@ -26,8 +26,21 @@ html {
     margin: .67em 0;
     font-size: 2em;
  }
+
+ /*resume page -  main title and subtitles*/
+ .resume-title {
+    margin: .100em 0;
+    font-size: 3em;
+    padding-top: 50px;
+    font-weight: bolder
+ }
+
+ .work {
+    padding-top: 50px;
+ }
+
  
- 
+
  hr {
     box-sizing: content-box;
     height: 0;
@@ -42,7 +55,9 @@ html {
  
  
  a {
-    background-color: #0000
+    background-color: #0000;
+    
+    
  }
  
  
@@ -216,6 +231,11 @@ html {
  }
  
  
+ .arrow2 {
+    height: 15px;
+   
+ }
+ 
  .main {
     box-sizing: border-box;
     display: block;
@@ -237,8 +257,10 @@ html {
     display: flex
  }
  
+ 
 
-  /* resume page not scrolling*/
+
+  /* resume page sizing*/
  @media screen and (min-width: 900px) {
     .main-container {
         
@@ -247,14 +269,14 @@ html {
     }
  }
  
- /* resume page not scrolling*/
+
  .main-container .main-container-inner {
     width: 100vw;
     max-width: 1280px;
     
  }
  
-  /* resume page not scrolling- when i delete this the nav bar se borra*/
+  /* resume page sizing*/
  @media screen and (min-width: 900px) {
     .main-container .main-container-inner {
         max-height:791px;
@@ -1253,5 +1275,4 @@ html {
 .mi {
     color: white;
 }
-
 
