@@ -237,9 +237,38 @@ html {
     display: flex
  }
  
- 
+
+  /* resume page not scrolling*/
  @media screen and (min-width: 900px) {
     .main-container {
+        
+        align-items: center;
+      
+    }
+ }
+ 
+ /* resume page not scrolling*/
+ .main-container .main-container-inner {
+    width: 100vw;
+    max-width: 1280px;
+    
+ }
+ 
+  /* resume page not scrolling- when i delete this the nav bar se borra*/
+ @media screen and (min-width: 900px) {
+    .main-container .main-container-inner {
+        max-height:791px;
+        height: 100vh
+    }
+ }
+
+
+ 
+
+/* index page sizing */
+ 
+  @media screen and (min-width: 900px) {
+    .index {
         height:100vh;
         max-height: 100vh;
         align-items: center;
@@ -247,8 +276,8 @@ html {
     }
  }
  
- 
- .main-container .main-container-inner {
+
+ .index .index1 {
     width: 100vw;
     max-width: 1280px;
     box-sizing: border-box;
@@ -261,12 +290,122 @@ html {
  
  
  @media screen and (min-width: 900px) {
-    .main-container .main-container-inner {
-        max-height:1200px;
+    .index .index1 {
+        max-height:791px;
         height: 100vh
     }
  }
+
+
+ /* Restaurant project page sizing */
+ @media screen and (min-width: 900px) {
+    .restaurant {
+        height:100vh;
+        max-height: 100vh;
+        align-items: center;
+        overflow: hidden
+    }
+ }
  
+
+ .restaurant .restaurant1 {
+    width: 100vw;
+    max-width: 1280px;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 7.5px;
+    display: flex;
+    position: relative
+ }
+ 
+ 
+ @media screen and (min-width: 900px) {
+    .restaurant .restaurant1 {
+        max-height:791px;
+        height: 100vh
+    }
+ }
+
+
+
+
+/* lipstick project page sizing*/
+ @media screen and (min-width: 900px) {
+    .lipi{
+        height:100vh;
+        max-height: 200vh;
+        align-items: center;
+        overflow: hidden
+    }
+ }
+ 
+
+ .lipi .lipi1 {
+    width: 100vw;
+    max-width: 1280px;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 7.5px;
+    display: flex;
+    position: relative
+ }
+ 
+
+ @media screen and (min-width: 900px) {
+    .lipi .lipi1 {
+        max-height:791px;
+        height: 100vh
+    }
+ }
+
+
+ /* image-detection project page sizing*/
+ @media screen and (min-width: 900px) {
+    .imi{
+        height:100vh;
+        max-height: 200vh;
+        align-items: center;
+        overflow: hidden
+    }
+ }
+ 
+
+ .imi .imi1 {
+    width: 100vw;
+    max-width: 1280px;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 7.5px;
+    display: flex;
+    position: relative
+ }
+ 
+
+ @media screen and (min-width: 900px) {
+    .imi .imi1 {
+        max-height:791px;
+        height: 100vh
+    }
+ }
+
+
+
+ /* TEST resume to get it to scroll*/
+ 
+
+
+ /*end of resume test */
+
+
+
+
+
+
+
+
  
  @media screen and (min-width: 500px) {
     .main-container .main-container-inner {
@@ -455,8 +594,33 @@ html {
     justify-content: flex-start;
     align-items: flex-start;
     display: flex;
-    transform: translateZ(0)
+    transform: translateZ(0);
+   
+   
  }
+
+/*restaurant page project on small screen*/
+ @media screen and (max-width: 900px){
+    .main-container .main-container-inner .inner-container main.rest {
+        padding-top: 50px;
+    }
+ }
+    
+  /*lipstick page project on small screen*/
+ @media screen and (max-width: 900px){
+    .main-container .main-container-inner .inner-container main.lipstick {
+        padding-top: 50px;
+    }
+ }  
+ 
+   /*image detection page project on small screen*/
+   @media screen and (max-width: 900px){
+    .main-container .main-container-inner .inner-container main.image-detection {
+        padding-top: 50px;
+    }
+ } 
+
+ 
  
  
  @media screen and (min-width: 900px) {
@@ -464,13 +628,17 @@ html {
         flex-direction:row;
         justify-content: space-between;
         align-items: center;
-        padding-left: 50px
+        padding-left: 50px;
+       
     }
  
+
+    
  
     .main-container .main-container-inner .inner-container main.projects-overview div.spacer {
         max-width: 130px;
-        min-width: 90px
+        min-width: 90px;
+       
     }
  
  
@@ -700,7 +868,7 @@ html {
     height: 3px;
     width: 100%;
     background: #466368;
-    background: linear-gradient(to right, #517F6B, #2d879e);
+    background: linear-gradient(to right, #80d1ae,#5ac6e1, #2d879e);
     opacity: 0;
     transition: all .3s ease-in-out;
     display: inline-block;
@@ -883,7 +1051,7 @@ html {
    article li:before {
     background: #466368;
     background: linear-gradient(#6daf92, #43678D, #3753AF);
-    width: 0.5px;
+    width: 1.5px;
     content: '';
     position: absolute;
     top: 0px;
@@ -920,6 +1088,7 @@ html {
     position: absolute;
     border-radius: 50%;
     border: 0px solid rgb(47, 47, 173);
+   
     left: 0;
     top: 2px;
     width: 12px;
@@ -936,6 +1105,7 @@ html {
  .navbar-toggler {
   
         transition: all .2s ease-in-out;
+      
         
     
  }
@@ -1007,6 +1177,8 @@ html {
     box-shadow: none;
  }
  
+
+
  
   /*logo colors and hover effect */
 .logo{
@@ -1016,6 +1188,7 @@ html {
 
 .logo:hover {
     transform: scale(1.1);
+    font-weight: 200;
     
    
 }
@@ -1028,6 +1201,7 @@ html {
 
 .navbar-light .navbar-brand:hover {
     color: #ccc;
+    
 }
  
  .logo {
@@ -1066,6 +1240,18 @@ html {
 
 .logi{
     width: 100px;
+}
+
+
+
+
+.navbar-toggle {
+    padding: 4px 3px !important;
+}
+
+
+.mi {
+    color: white;
 }
 
 
