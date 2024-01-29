@@ -235,9 +235,27 @@ html {
  /*arrow on github code button*/
  .arrow2 {
     height: 15px;
-    margin-left: 10px;
+    margin-left: 20px;
+    transform: rotate(-20deg);
+    -webkit-transform: rotate(-45deg);
    
  }
+
+ .bounce {
+    animation: bounce 2s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-50px);
+    }
+    50% {
+      transform: translateX(-15px);
+    }
+  }
  
  .main {
     box-sizing: border-box;
@@ -1326,6 +1344,9 @@ html {
 .size{
     font-size: medium;
 }
+
+
+
 
 
 
