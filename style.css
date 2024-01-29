@@ -233,6 +233,7 @@ html {
  
  .arrow2 {
     height: 15px;
+    margin-left: 10px;
    
  }
  
@@ -1275,4 +1276,37 @@ html {
 .mi {
     color: white;
 }
+
+
+/*github code button on projects page*/
+
+.git {
+    color: #ccc;
+    
+    padding-bottom:5px;
+    background: linear-gradient(to right,#6daf92, #43678D, #3753AF)
+      left 
+      bottom  
+      no-repeat; 
+    background-size:100% 3px ;/* if linear-gradient, we need to resize it */
+    
+}
+
+
+.git:hover {
+    color: #fff;
+    text-decoration: none;
+    padding-bottom:5px;
+    background: linear-gradient(to right,#6daf92, #43678D, #3753AF)
+      left 
+      bottom 
+      no-repeat; 
+    background-size:100% 3px ;/* if linear-gradient, we need to resize it */
+
+}
+
+.size{
+    font-size: medium;
+}
+
 
