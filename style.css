@@ -219,7 +219,7 @@ html {
  /* outter body (change background color here) */
  body {
     color: #d1d1d1;
-    background-image: url(./images/grad.png);
+    background-image: url(./grad.png);
     /*background: radial-gradient(circle, rgba(10,24,35,1) 0%, rgba(18,25,26,1) 67%, rgba(19,17,27,1) 100%);*/
     font-family: 'Poppins', sans-serif;
    
@@ -810,7 +810,7 @@ html {
     content: " ";
     width: 100px;
     height: 100px;
-    background-image: url(./images/curva.svg);
+    background-image: url(./curva.svg);
     opacity: 1;
     border-top-left-radius: 8px;
     transition: all .3s ease-in-out;
@@ -1348,5 +1348,12 @@ html {
 .size{
     font-size: medium;
 }
+
+
+
+
+
+
+
 
 
