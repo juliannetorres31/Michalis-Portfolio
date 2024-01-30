@@ -3,7 +3,7 @@
 <head>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>michalis portafolio</title>
+   <title>michalis portfolio</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./style.css">
@@ -16,72 +16,75 @@
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
    <link href="style.css" rel="stylesheet">
+   
+ 
 </head>
 <body> 
+    
     <div class="loading">&nbsp;</div> 
-    <noscript> 
-        <div class="js-false"> 
-            <style>.main{display:none}body{height:100vh;margin:0;padding:0}.js-false{fill:#ccc;color:#ccc;box-sizing:border-box;text-align:center;background:#262626;flex-direction:column;justify-content:center;align-items:center;padding:10px;font-family:Arial,Helvetica,sans-serif;font-size:18px;display:flex;position:absolute;top:0;bottom:0;left:0;right:0}</style> 
-            <img src="/sadface.02dbca72.svg" alt="sad face"><br> Sorry but this site does not work without Javascript. 
-        </div> 
-    </noscript> 
+   
         <div class="main not-loaded"> 
-            <div class="main-container"> 
-                <div id="main-container-inner" class="main-container-inner"> 
+            <div class="main-container imi"> 
+                <div id="main-container-inner" class="main-container-inner imi1"> 
                     <div> <use class="inlineSvgFile" href="/corner_top_left.66bb21e6.svg"></use>
                 </div> 
                 
-                <!--Inner Container--->
+<!--Inner Container--->
+
                     <div class="inner-container"> 
 
-                       
-                        <!--Navbar-->
+
+
+<!--Navbar-->
+
+
                         <nav class="navbar navbar-light light-blue lighten-4">
 
                             <!-- Navbar brand -->
-                            <a class="navbar-brand" href="#">michail<br>alifierakis</a>
-
+                            <a class="navbar-brand logo" href="./index.html"><img class="logi" src="./images/mich-logo.png"></a>
+                        
                             <!-- Collapse button -->
                             <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
                             aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
                                 class="fas fa-bars fa-1x"></i></span></button>
-
+                        
                             <!-- Collapsible content -->
                             <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-
+                        
                             <!-- Links -->
                             <ul class="navbar-nav mr-auto">
-                                <li class="nav-item active">
-                                <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                                <li class="nav-item active linav">
+                                <a class="color-me" class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
                                 </li>
-                                <li class="nav-item">
-                                <a class="nav-link" href="./resume.html">Resume</a>
+                                <li class="nav-item linav">
+                                <a class="color-me" class="nav-link" href="./resume.html">Resume</a>
                                 </li>
-                                <li class="nav-item">
-                                <a class="nav-link" href="#">Projects</a>
+                                <li class="nav-item linav">
+                                <a class="color-me" class="nav-link" href="#">Projects</a>
+                                </li>
+                                <li class="nav-item linav">
+                                    <a href="https://medium.com/@alifier/" target="_blank" class="color-me" class="nav-link" href="#">Blog</a>
                                 </li>
                             </ul>
                             <!-- Links -->
-
+                        
                             </div>
                             <!-- Collapsible content -->
-
+                        
                         </nav>
                         <!--/.Navbar-->
                         
-                        <main class="projects-overview"> 
+                        <main class="projects-overview image-detection"> 
                             <div class="main-message"> 
                                     
 
                                     <!--Indivifual Projects Page-->
 
-                                    <div class="individual-project-1" data-link="https://screentimeconverter.com"> 
-                                        <h2 class="project-name">Faster Image Edge Detection Using Machine Learning</h2> 
+                                    <div class="individual-project-1" data-link="#"> 
+                                        <h2>Faster Image Edge Detection Using Machine Learning</h2> 
                                         <span> 
                                             <p>Many of the microscopy images taken for scientific purposes (especially images of polymer particles) are not as complicated as real-life images (i.e. there is a presence of only two materials and a good contrast). The common edge detection algorithms (such as Canny) are "too good" for some scientific applications which means that the development of a simpler faster algorithm should be possible. I have developed an algorithm that creates a classification edge-detection dataset using the Canny edge detector. This dataset can then be used as input to train a machine learning algorithm to identify the edges of particles on similar images. This way the extraction of data from a large number of microscopy images becomes more feasible.</p>
-                                            <button class="help">
-                                                <a class="hi" style="text-decoration: none;" rel="noopener" target="_blank" href="#"> GitHub Code </a>
-                                            </button>
+                                            <a class="git" rel="noopener" target="_blank" href="https://github.com/alifier/edgedetection"> GitHub Code </a> <img class="arrow2 bounce" src="./images/arrow.png">
                                         </span> 
                                     </div> 
                                     
@@ -98,15 +101,15 @@
                                     <div> 
 
                                         <a rel="noopener"  href="./restaurant-project.html"> 
-                                            <span>Restaurant Success Model</span> 
+                                            <span class="size">Restaurant Success Model</span> 
                                         </a> 
                                         
                                         <a rel="noopener" href="./lipstick-removal.html"> 
-                                            <span>A Convolutional Neural Net That Removes Lipstick from Images</span> 
+                                            <span class="size">A Convolutional Neural Net That Removes Lipstick from Images</span> 
                                         </a> 
                                         
                                         <a rel="noopener" href="#"> 
-                                            <span>Faster Image Edge Detection Using Machine Learning</span> 
+                                            <span class="size">Faster Image Edge Detection Using Machine Learning</span> 
                                         </a> 
 
                                        
@@ -137,6 +140,4 @@
 
 
 </html>
-
-
 
